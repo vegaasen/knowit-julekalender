@@ -4,4 +4,4 @@ target/
 # IDE
 
 *.iml
-.idea/
+.idea
