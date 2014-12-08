@@ -1,0 +1,7 @@
+# Generated
+target/
+
+# IDE
+
+*.iml
+.idea/
