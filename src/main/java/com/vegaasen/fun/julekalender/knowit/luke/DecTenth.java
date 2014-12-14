@@ -7,7 +7,7 @@ import java.util.List;
 /**
  * @author <a href="vegaasen@gmail.com">vegardaasen</a>
  */
-public class DecTenth {
+public final class DecTenth {
 
     private static final int NUM_OF_ATTENDEES = 1500, UNO = 1, ZERO = 0;
 
