@@ -10,6 +10,8 @@ import java.util.concurrent.TimeUnit;
 
 /**
  * Remove the set for more performance - if that's what you're after
+
+ * Averaged to 70ms with set on, 35ms without :-). jvm ftw! :-P
  *
  * @author <a href="vegaasen@gmail.com">vegardaasen</a>
  */
