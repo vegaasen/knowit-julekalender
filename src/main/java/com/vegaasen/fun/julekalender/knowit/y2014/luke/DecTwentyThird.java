@@ -1,4 +1,4 @@
-package com.vegaasen.fun.julekalender.knowit.luke;
+package com.vegaasen.fun.julekalender.knowit.y2014.luke;
 
 /**
  * @author <a href="vegaasen@gmail.com">vegardaasen</a>

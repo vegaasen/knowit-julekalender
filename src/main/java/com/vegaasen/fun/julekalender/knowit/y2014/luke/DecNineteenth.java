@@ -1,4 +1,4 @@
-package com.vegaasen.fun.julekalender.knowit.luke;
+package com.vegaasen.fun.julekalender.knowit.y2014.luke;
 
 import java.nio.file.Files;
 import java.nio.file.Paths;
