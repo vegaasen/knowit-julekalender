@@ -1,6 +1,7 @@
 package com.vegaasen.fun.julekalender.knowit.y2015;
 
 import com.vegaasen.fun.julekalender.service.OJulMedDinGlede;
+import com.vegaasen.fun.julekalender.utils.MeasuredInvocation;
 import com.vegaasen.fun.julekalender.utils.PathPrettifier;
 
 import java.io.IOException;
@@ -16,10 +17,15 @@ public class First implements OJulMedDinGlede {
     private static final String FILE_CANDIDATE = "/2015/1_F8z0JWqa.txt";
 
     public void hohoho() {
-        try {
-            System.out.println(Files.readAllLines(PathPrettifier.INSTANCE.getFormattedPath(FILE_CANDIDATE)).parallelStream().filter(WTF.asPredicate()).count());
-        } catch (IOException e) {
-            // *oh snoes*
-        }
+        new MeasuredInvocation() {
+            @Override
+            public void what() {
+                try {
+                    System.out.println(Files.readAllLines(PathPrettifier.INSTANCE.getFormattedPath(FILE_CANDIDATE)).parallelStream().filter(WTF.asPredicate()).count());
+                } catch (IOException e) {
+                    // *oh snoes*
+                }
+            }
+        }.execute();
     }
 }

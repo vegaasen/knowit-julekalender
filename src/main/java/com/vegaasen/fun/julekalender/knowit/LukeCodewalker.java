@@ -2,6 +2,8 @@ package com.vegaasen.fun.julekalender.knowit;
 
 import com.google.common.collect.Lists;
 import com.vegaasen.fun.julekalender.knowit.y2015.First;
+import com.vegaasen.fun.julekalender.knowit.y2015.Second;
+import com.vegaasen.fun.julekalender.knowit.y2015.Third;
 import com.vegaasen.fun.julekalender.service.OJulMedDinGlede;
 
 /**
@@ -15,7 +17,9 @@ public class LukeCodewalker {
 
     private static void useTheForce() {
         Lists.<OJulMedDinGlede>newArrayList(
-                new First()
+                new First(),
+                new Second(),
+                new Third()
         ).forEach(OJulMedDinGlede::hohoho);
     }
 
