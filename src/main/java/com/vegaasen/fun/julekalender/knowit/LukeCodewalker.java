@@ -1,9 +1,12 @@
 package com.vegaasen.fun.julekalender.knowit;
 
 import com.google.common.collect.Lists;
+import com.vegaasen.fun.julekalender.knowit.y2015.Fifth;
 import com.vegaasen.fun.julekalender.knowit.y2015.First;
 import com.vegaasen.fun.julekalender.knowit.y2015.Fourth;
 import com.vegaasen.fun.julekalender.knowit.y2015.Second;
+import com.vegaasen.fun.julekalender.knowit.y2015.Seventh;
+import com.vegaasen.fun.julekalender.knowit.y2015.Sixth;
 import com.vegaasen.fun.julekalender.knowit.y2015.Third;
 import com.vegaasen.fun.julekalender.service.OJulMedDinGlede;
 
@@ -21,7 +24,10 @@ public class LukeCodewalker {
                 new First(),
                 new Second(),
                 new Third(),
-                new Fourth()
+                new Fourth(),
+                new Fifth(),
+                new Sixth(),
+                new Seventh()
         ).forEach(OJulMedDinGlede::hohoho);
     }
 

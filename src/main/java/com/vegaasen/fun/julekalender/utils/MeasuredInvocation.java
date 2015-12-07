@@ -25,7 +25,7 @@ public abstract class MeasuredInvocation {
             //* gulp *
         }
         casio.stop();
-        System.out.println(String.format("Invocation took {%s microseconds}", casio.elapsed(TimeUnit.MICROSECONDS)));
+        System.out.println(String.format("Invocation took {%sms}", casio.elapsed(TimeUnit.MILLISECONDS)));
     }
 
 }
