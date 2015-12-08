@@ -1,6 +1,7 @@
 package com.vegaasen.fun.julekalender.knowit;
 
 import com.google.common.collect.Lists;
+import com.vegaasen.fun.julekalender.knowit.y2015.Eight;
 import com.vegaasen.fun.julekalender.knowit.y2015.Fifth;
 import com.vegaasen.fun.julekalender.knowit.y2015.First;
 import com.vegaasen.fun.julekalender.knowit.y2015.Fourth;
@@ -27,7 +28,8 @@ public class LukeCodewalker {
                 new Fourth(),
                 new Fifth(),
                 new Sixth(),
-                new Seventh()
+                new Seventh(),
+                new Eight()
         ).forEach(OJulMedDinGlede::hohoho);
     }
 

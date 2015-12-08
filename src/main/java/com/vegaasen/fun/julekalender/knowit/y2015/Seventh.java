@@ -42,7 +42,7 @@ public class Seventh implements OJulMedDinGlede {
     private List<Integer> primolini(long candidate) {
         List<Integer> factors = new ArrayList<>();
         long primeCandidate = candidate;
-        for (int i = 2; i <= primeCandidate; i++) {
+        for (int i = 3; i <= primeCandidate; i++) {
             if (primeCandidate % i == 0) {
                 factors.add(i);
                 primeCandidate /= i;
