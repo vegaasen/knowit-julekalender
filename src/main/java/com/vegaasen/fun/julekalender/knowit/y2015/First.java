@@ -17,7 +17,7 @@ public class First implements OJulMedDinGlede {
     private static final String FILE_CANDIDATE = "/2015/1_F8z0JWqa.txt";
 
     public void hohoho() {
-        new MeasuredInvocation() {
+        new MeasuredInvocation(1) {
             @Override
             public void what() {
                 try {

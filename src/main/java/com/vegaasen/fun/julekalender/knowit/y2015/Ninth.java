@@ -13,7 +13,7 @@ public class Ninth implements OJulMedDinGlede {
 
     @Override
     public void hohoho() {
-        new MeasuredInvocation() {
+        new MeasuredInvocation(9) {
             @Override
             public void what() {
                 System.out.println(String.format("What {%s}", findMeTheExcelColumnTitle(EXCEL_COLUMN_LENGTH)));

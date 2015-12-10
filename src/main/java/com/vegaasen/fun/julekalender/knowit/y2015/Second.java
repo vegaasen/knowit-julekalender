@@ -18,7 +18,7 @@ public class Second implements OJulMedDinGlede {
 
     @Override
     public void hohoho() {
-        new MeasuredInvocation() {
+        new MeasuredInvocation(2) {
             @Override
             public void what() {
                 try {

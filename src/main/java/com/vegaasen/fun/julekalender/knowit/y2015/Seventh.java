@@ -23,7 +23,7 @@ public class Seventh implements OJulMedDinGlede {
     @Override
     public void hohoho() {
         List<Integer> primeFun = new ArrayList<>();
-        new MeasuredInvocation() {
+        new MeasuredInvocation(7) {
             @Override
             public void what() {
                 for (int i = 1000; i >= 0; i--) {

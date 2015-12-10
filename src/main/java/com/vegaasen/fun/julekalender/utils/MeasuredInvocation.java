@@ -10,9 +10,11 @@ import java.util.concurrent.TimeUnit;
 public abstract class MeasuredInvocation {
 
     private final Stopwatch casio;
+    private final int luke;
 
-    public MeasuredInvocation() {
+    public MeasuredInvocation(int luke) {
         casio = Stopwatch.createUnstarted();
+        this.luke = luke;
     }
 
     public abstract void what();
@@ -25,7 +27,7 @@ public abstract class MeasuredInvocation {
             //* gulp *
         }
         casio.stop();
-        System.out.println(String.format("Invocation took {%sms}", casio.elapsed(TimeUnit.MILLISECONDS)));
+        System.out.println(String.format("Luke %s: Invocation took {%sms}", luke, casio.elapsed(TimeUnit.MILLISECONDS)));
     }
 
 }

@@ -26,7 +26,7 @@ public class Eight implements OJulMedDinGlede {
     @Override
     public void hohoho() {
         List<Integer> mirp = new ArrayList<>();
-        new MeasuredInvocation() {
+        new MeasuredInvocation(8) {
             @Override
             public void what() {
                 for (int i = 0; i <= 1000; i++) {

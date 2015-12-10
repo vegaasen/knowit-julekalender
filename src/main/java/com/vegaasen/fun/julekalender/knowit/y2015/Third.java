@@ -15,7 +15,7 @@ import java.time.Month;
  * Hint: Skuddår er forøvrig et år som er delelig på 4 og ikke 100 med mindre det er delelig på 400
  * <p>
  * OBS: Er blitt gjort oppmerksom på et avvik i oppgaven. Svaret som er lagt inn på oppgaven later til å anta at den første dagen i året er den "nulte" dagen i året.
- *
+ * <p>
  * Note: Jeah, this is not by far optimized, I know.
  *
  * @author <a href="vegaasen@gmail.com">vegardaasen</a>
@@ -30,7 +30,7 @@ public class Third implements OJulMedDinGlede {
 
     @Override
     public void hohoho() {
-        new MeasuredInvocation() {
+        new MeasuredInvocation(3) {
             @Override
             public void what() {
                 LocalDate date = START_DATE;
