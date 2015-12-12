@@ -9,7 +9,7 @@ import com.vegaasen.fun.julekalender.utils.MeasuredInvocation;
  *
  * @author <a href="vegaasen@gmail.com">vegardaasen</a>
  */
-public class Tolv implements OJulMedDinGlede {
+public class Twelfth implements OJulMedDinGlede {
 
     private static final long MAX_NUM = 100_000_000L;
     private static final int INCREMENTOR = 7;
