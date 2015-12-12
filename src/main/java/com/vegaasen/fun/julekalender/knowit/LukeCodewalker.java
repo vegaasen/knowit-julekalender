@@ -12,6 +12,7 @@ import com.vegaasen.fun.julekalender.knowit.y2015.Seventh;
 import com.vegaasen.fun.julekalender.knowit.y2015.Sixth;
 import com.vegaasen.fun.julekalender.knowit.y2015.Tenth;
 import com.vegaasen.fun.julekalender.knowit.y2015.Third;
+import com.vegaasen.fun.julekalender.knowit.y2015.Tolv;
 import com.vegaasen.fun.julekalender.service.OJulMedDinGlede;
 
 /**
@@ -35,7 +36,8 @@ public class LukeCodewalker {
                 new Eight(),
                 new Ninth(),
                 new Tenth(),
-                new Eleventh()
+                new Eleventh(),
+                new Tolv()
         ).forEach(OJulMedDinGlede::hohoho);
     }
 
