@@ -23,10 +23,10 @@ import com.vegaasen.fun.julekalender.service.OJulMedDinGlede;
 public class LukeCodewalker {
 
     public static void main(String... args) {
-        useTheForce();
+        useTheForceLuke();
     }
 
-    private static void useTheForce() {
+    private static void useTheForceLuke() {
         Lists.<OJulMedDinGlede>newArrayList(
                 new First(),
                 new Second(),
