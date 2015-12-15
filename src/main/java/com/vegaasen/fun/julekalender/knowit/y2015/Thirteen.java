@@ -6,6 +6,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
+ * unsolved. didn't bother spending more time on it.
+ *
  * @author <a href="vegaasen@gmail.com">vegardaasen</a>
  */
 public class Thirteen implements OJulMedDinGlede {
@@ -24,7 +26,7 @@ public class Thirteen implements OJulMedDinGlede {
                 }
             }
         }
-        System.out.println(String.format("Knall tall number %s found {%s}, all talls {%s}", MAX_NUM, numbers.get(MAX_NUM - 1), numbers));
+        System.out.println(String.format("Knall tall number %s found {%s}", MAX_NUM, numbers.get(MAX_NUM - 1)));
     }
 
     private boolean isKnall(int candidate) {
