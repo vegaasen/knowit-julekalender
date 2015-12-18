@@ -4,8 +4,6 @@ import com.google.common.collect.Lists;
 import com.vegaasen.fun.julekalender.service.OJulMedDinGlede;
 import com.vegaasen.fun.julekalender.utils.MeasuredInvocation;
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.stream.Collectors;
 
 /**
