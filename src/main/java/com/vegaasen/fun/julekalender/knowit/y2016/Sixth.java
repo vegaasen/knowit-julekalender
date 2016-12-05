@@ -34,12 +34,10 @@ public class Sixth implements OJulMedDinGlede {
             public void what() {
                 try {
                     List<Integer> candidates = Stream.of(Files.readAllLines(PathPrettifier.INSTANCE.getFormattedPath(FILE_CANDIDATE)).stream().map(s -> s.split(",")).findFirst().orElse(new String[]{})).map(Sixth::romanToDecimal).collect(Collectors.toList());
-                    String message = "";
                     int size = candidates.size();
                     for (int index = 0; index < size / 2; index++) {
-                        message += ALPHABET.charAt(candidates.get(index) + candidates.get(size - index - 1) - 1);
+                        System.out.print(ALPHABET.charAt(candidates.get(index) + candidates.get(size - index - 1) - 1));
                     }
-                    System.out.println(message);
                 } catch (IOException e) {
                     /* gulp */
                 }
