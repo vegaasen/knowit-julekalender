@@ -22,7 +22,7 @@ import java.util.stream.Stream;
  * @author <a href="vegaasen@gmail.com">vegardaasen</a>
  * @link http://pastebin.com/xfX3msCL
  */
-public class Sixth implements OJulMedDinGlede {
+public class Fifth implements OJulMedDinGlede {
 
     private static final String FILE_CANDIDATE = "/2016/sixth.text";
     private static final String ALPHABET = "abcdefghijklmnopqrstuvwxyz";
@@ -33,7 +33,7 @@ public class Sixth implements OJulMedDinGlede {
             @Override
             public void what() {
                 try {
-                    List<Integer> candidates = Stream.of(Files.readAllLines(PathPrettifier.INSTANCE.getFormattedPath(FILE_CANDIDATE)).stream().map(s -> s.split(",")).findFirst().orElse(new String[]{})).map(Sixth::romanToDecimal).collect(Collectors.toList());
+                    List<Integer> candidates = Stream.of(Files.readAllLines(PathPrettifier.INSTANCE.getFormattedPath(FILE_CANDIDATE)).stream().map(s -> s.split(",")).findFirst().orElse(new String[]{})).map(Fifth::romanToDecimal).collect(Collectors.toList());
                     int size = candidates.size();
                     for (int index = 0; index < size / 2; index++) {
                         System.out.print(ALPHABET.charAt(candidates.get(index) + candidates.get(size - index - 1) - 1));

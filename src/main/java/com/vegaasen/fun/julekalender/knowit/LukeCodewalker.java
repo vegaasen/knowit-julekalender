@@ -1,6 +1,7 @@
 package com.vegaasen.fun.julekalender.knowit;
 
-import com.vegaasen.fun.julekalender.knowit.y2016.Sixth;
+import com.vegaasen.fun.julekalender.knowit.y2016.Fifth;
+import com.vegaasen.fun.julekalender.knowit.y2016.Seventh;
 import com.vegaasen.fun.julekalender.service.OJulMedDinGlede;
 
 import java.util.stream.Stream;
@@ -15,7 +16,7 @@ public class LukeCodewalker {
     }
 
     private static void useTheForceLuke() {
-        Stream.of(new Sixth()).forEach(OJulMedDinGlede::hohoho);
+        Stream.of(new Seventh()).forEach(OJulMedDinGlede::hohoho);
     }
 
 }
