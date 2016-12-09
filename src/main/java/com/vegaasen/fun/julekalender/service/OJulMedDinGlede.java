@@ -7,5 +7,4 @@ public interface OJulMedDinGlede {
 
     void hohoho();
 
-
 }
